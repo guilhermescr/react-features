@@ -1,0 +1,39 @@
+.counterButtons {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.counterButtons > div {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.counterButtons button {
+  border: 1px solid #202020;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.counterButtons button:hover {
+  background-color: #ccc;
+}
+
+.counterButtons button:active {
+  background-color: red;
+}
+
+.otherFeatures {
+  position: absolute;
+  bottom: -200%;
+}
+
+.otherFeatures button {
+  border-radius: 5px;
+}

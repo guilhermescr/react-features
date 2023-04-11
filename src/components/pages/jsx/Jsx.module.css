@@ -1,0 +1,14 @@
+.header {
+  background-color: burlywood;
+  text-align: center;
+}
+
+.heading {}
+
+.button {}
+
+.beagle {
+  display: block;
+  margin: auto;
+  width: 200px;
+}

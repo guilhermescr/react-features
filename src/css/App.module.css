@@ -1,0 +1,7 @@
+.app {
+  position: relative;
+}
+
+.app > div {
+  position: relative;
+}
