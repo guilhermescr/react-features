@@ -1,23 +1,26 @@
 import Header from '../../Header';
-import styles from './Jsx.module.css';
 import beagle from '../../../img/homepage/beagle-dog.png';
 import BackToHomeButton from '../../BackToHomeButton';
+import Main from '../../Main';
 
 export default function Jsx() {
   return (
-    <>
-      <BackToHomeButton />
+    <div className="bg-green-900">
+      <Header page="JSX" />
 
-      <Header classObj={styles.header} page="JSX" />
-      <h2 className={styles.heading}>This is an h2.</h2>
-      <button
-        className={styles.button}
-        onClick={() => alert('You got an alert :)')}
-      >
-        Click here to get an alert()
-      </button>
+      <Main customCSS="flex flex-col items-center justify-center">
+        <h2 className="text-2xl pt-4 text-white">This is an h2.</h2>
+        <button
+          className="bg-lime-600 rounded-md p-2 px-4 mt-2 text-white hover:bg-lime-500 active:bg-red-600"
+          onClick={() => alert('Roof Roof! :)')}
+        >
+          Click here to get an alert()
+        </button>
 
-      <img className={styles.beagle} src={beagle} />
-    </>
+        <img className="w-52" src={beagle} />
+
+        <BackToHomeButton />
+      </Main>
+    </div>
   );
 }

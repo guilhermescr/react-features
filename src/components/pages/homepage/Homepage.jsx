@@ -3,13 +3,14 @@ import Footer from './Footer';
 import About from './About';
 import Features from './Features';
 import Feature from './Feature';
+import Main from '../../Main';
 
 export default function Homepage() {
   return (
-    <div>
+    <div className="bg-gradient-to-r from-[#55B8FF] to-[#BD34FE]">
       <Header page="Homepage" />
 
-      <main>
+      <Main customCSS="min-h-[calc(100vh-112px)]">
         <About />
 
         <Features>
@@ -17,7 +18,7 @@ export default function Homepage() {
           <Feature routeTo="/props" routeTxt="Props" />
           <Feature routeTo="/state" routeTxt="State" />
         </Features>
-      </main>
+      </Main>
 
       <Footer />
     </div>
