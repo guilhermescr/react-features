@@ -107,7 +107,7 @@ export default function State() {
             </CounterContainer>
 
             <p
-              className={`bg-white rounded-xl font-bold self-end py-3 text-center ${counterColor} w-full sm:w-20`}
+              className={`bg-white rounded-xl font-bold self-end py-3 px-4 text-center ${counterColor} w-full sm:w-20`}
             >
               {counter}
             </p>
