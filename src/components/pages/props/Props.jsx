@@ -1,7 +1,7 @@
 import BackToHomeButton from '../../BackToHomeButton';
-import Footer from '../../Footer';
 import Header from '../../Header';
 import Main from '../../Main';
+import Footer from '../../Footer';
 import Prop from './Prop';
 
 export default function Props() {

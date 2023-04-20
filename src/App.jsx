@@ -3,7 +3,8 @@ import Homepage from './components/pages/homepage/Homepage';
 import Jsx from './components/pages/jsx/Jsx';
 import Props from './components/pages/props/Props';
 import styles from './css/App.module.css';
-import State from './components/pages/state/State';
+import UseState from './components/pages/usestate/UseState';
+import UseRef from './components/pages/useref/UseRef';
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/jsx" element={<Jsx />} />
           <Route path="/props" element={<Props />} />
-          <Route path="/state" element={<State />} />
+          <Route path="/usestate" element={<UseState />} />
+          <Route path="/useref" element={<UseRef />} />
         </Routes>
       </div>
     </Router>

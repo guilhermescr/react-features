@@ -16,7 +16,8 @@ export default function Homepage() {
         <Features>
           <Feature routeTo="/jsx" routeTxt="JSX" />
           <Feature routeTo="/props" routeTxt="Props" />
-          <Feature routeTo="/state" routeTxt="State" />
+          <Feature routeTo="/usestate" routeTxt="useState" />
+          <Feature routeTo="/useref" routeTxt="useRef" />
         </Features>
       </Main>
 

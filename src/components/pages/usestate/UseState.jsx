@@ -7,7 +7,7 @@ import Footer from '../../Footer';
 import CounterContainer from './CounterContainer';
 import { bg_image } from './StateBackgroundImage.module.css';
 
-export default function State() {
+export default function UseState() {
   const [counter, setCounter] = useState(0);
   const [counterColor, setCounterColor] = useState('text-black');
   const [isOneHundred, setIsOneHundred] = useState(false);
@@ -71,7 +71,7 @@ export default function State() {
     <div
       className={`bg-[#FFBF17] ${bg_image} bg-no-repeat bg-center bg-fixed bg-cover flex flex-col justify-between`}
     >
-      <Header page="State" />
+      <Header page="useState" />
 
       <Main customCSS="flex flex-col gap-4 items-center justify-center">
         <h2 className="bg-white p-2 px-4 text-center text-2xl font-bold">
