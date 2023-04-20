@@ -1,5 +1,5 @@
 import Header from '../../Header';
-import Footer from './Footer';
+import Footer from '../../Footer';
 import About from './About';
 import Features from './Features';
 import Feature from './Feature';
@@ -10,7 +10,7 @@ export default function Homepage() {
     <div className="bg-gradient-to-r from-[#55B8FF] to-[#BD34FE]">
       <Header page="Homepage" />
 
-      <Main customCSS="min-h-[calc(100vh-112px)]">
+      <Main>
         <About />
 
         <Features>

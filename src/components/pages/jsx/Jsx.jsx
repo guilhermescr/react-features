@@ -2,6 +2,7 @@ import Header from '../../Header';
 import beagle from '../../../img/homepage/beagle-dog.png';
 import BackToHomeButton from '../../BackToHomeButton';
 import Main from '../../Main';
+import Footer from '../../Footer';
 
 export default function Jsx() {
   return (
@@ -21,6 +22,8 @@ export default function Jsx() {
 
         <BackToHomeButton />
       </Main>
+
+      <Footer />
     </div>
   );
 }

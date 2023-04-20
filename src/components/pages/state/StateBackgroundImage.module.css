@@ -1,0 +1,7 @@
+:root {
+  --image-url: url('');
+}
+
+.bg_image {
+  background-image: var(--image-url);
+}
