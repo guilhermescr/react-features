@@ -5,6 +5,7 @@ import Props from './components/pages/props/Props';
 import styles from './css/App.module.css';
 import UseState from './components/pages/usestate/UseState';
 import UseRef from './components/pages/useref/UseRef';
+import UseContext from './components/pages/usecontext/UseContext';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/props" element={<Props />} />
           <Route path="/usestate" element={<UseState />} />
           <Route path="/useref" element={<UseRef />} />
+          <Route path="usecontext" element={<UseContext />} />
         </Routes>
       </div>
     </Router>

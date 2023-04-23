@@ -18,6 +18,7 @@ export default function Homepage() {
           <Feature routeTo="/props" routeTxt="Props" />
           <Feature routeTo="/usestate" routeTxt="useState" />
           <Feature routeTo="/useref" routeTxt="useRef" />
+          <Feature routeTo="usecontext" routeTxt="useContext" />
         </Features>
       </Main>
 
